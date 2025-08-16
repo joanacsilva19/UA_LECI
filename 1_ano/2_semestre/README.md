@@ -3,4 +3,4 @@
 * LSD
 * C2
 * MD
-* LABI
+* LSS (substitui LABI)
