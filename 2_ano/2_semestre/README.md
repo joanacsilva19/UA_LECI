@@ -1,6 +1,6 @@
 # 2º semestre
 * AC2
 * RC2
-* SSE
+* SS (substitui SSE)
 * CT2
-* MPEI
+* MPECI (substitui MPEI)
