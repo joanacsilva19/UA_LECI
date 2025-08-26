@@ -1,5 +1,5 @@
 # 1º semestre
-* [FP](1_ano/1_semestre/FP)
+* [FP](UA_LECI/1_ano/1_semestre/FP)
 * C1
 * ALGA-A
 * ISD
