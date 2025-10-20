@@ -1,6 +1,6 @@
-# 1º semestre
-* MCE
-* RC1
+# 1º Semestre
 * AC1
-* CT1
+* RC1
 * AED
+* MCE
+* CT1
