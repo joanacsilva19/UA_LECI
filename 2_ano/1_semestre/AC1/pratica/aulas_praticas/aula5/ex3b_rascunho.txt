@@ -1,0 +1,22 @@
+lista1 = []
+
+for(i = 0; i < 10; i++):
+	num = int(input(numero:))
+	lista1.add(num)
+
+do
+	{
+	houveTroca = FALSE;
+	for (i=0; i < SIZE-1; i++)
+	{
+		if (lista[i] > lista[i+1])
+		{
+			aux = lista[i];
+			lista[i] = lista[i+1];
+			lista[i+1] = aux;
+			houveTroca = TRUE;
+		}
+	}
+} while (houveTroca==TRUE);
+
+// inserir aqui o código de impressão do conteúdo do array
