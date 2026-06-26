@@ -1,0 +1,10 @@
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\bin\Debug\problema1_2.exe.config
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\bin\Debug\problema1_2.exe
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\bin\Debug\problema1_2.pdb
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.csproj.AssemblyReference.cache
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.Form1.resources
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.Properties.Resources.resources
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.csproj.GenerateResource.cache
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.csproj.CoreCompileInputs.cache
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.exe
+C:\Users\Joana Silva\Desktop\BD\pratica\aula1_a\problema1_2\problema1_2\obj\Debug\problema1_2.pdb

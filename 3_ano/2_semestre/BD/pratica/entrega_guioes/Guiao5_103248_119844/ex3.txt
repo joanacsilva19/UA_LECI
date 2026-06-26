@@ -1,0 +1,22 @@
+-- π numUtente,nome ((π numUtente (paciente) - π numUtente (prescricao)) ⨝ paciente) -- alinea a
+-- γ especialidade; count(numPresc) -> total (medico ⨝ prescricao) -- alinea b
+-- γ nome; count(numPresc) -> total (farmacia ⨝ prescricao) -- alinea c
+-- π nomeFarmaco (presc_farmaco ⨝ numRegFarm ≠ numReg (σ farmaceutica.numReg = 906 (farmaceutica))) -- alinea d
+-- π prescricao.farmacia, farmaceutica.nome, total (γ prescricao.farmacia, farmaceutica.nome; count(farmaco.numRegFarm) -> total (prescricao ⨝ farmaco ⨝ numRegFarm = numReg (farmaceutica))) -- alinea e
+-- π nome (paciente ⨝ (π P1.numUtente (σ P1.numMedico ≠ P2.numMedico (ρ P1 (prescricao) ⨝ P1.numUtente = P2.numUtente ρ P2 (prescricao))))) -- alinea f
+ 
+
+/* 
+a) Lista de pacientes que nunca tiveram uma prescrição;
+
+b) Número de prescrições por especialidade médica;
+
+c) Número de prescrições processadas por farmácia;
+
+d) Para a farmacêutica com registo número 906, lista dos seus fármacos nunca
+prescritos;
+
+e) Para cada farmácia, o número de fármacos de cada farmacêutica vendidos;
+
+f) Pacientes que tiveram prescrições de médicos diferentes.
+*/
