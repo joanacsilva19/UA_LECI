@@ -1,0 +1,20 @@
+GAS LISTING f13.s 			page 1
+
+
+DEFINED SYMBOLS
+               f13.s:1      *ABS*:000000000000bf88 ADDR_BASE_HI
+               f13.s:2      *ABS*:0000000000006100 TRISE
+               f13.s:3      *ABS*:0000000000006110 PORTE
+               f13.s:4      *ABS*:0000000000006120 LATE
+               f13.s:6      *ABS*:000000000000000c resetCoreTimer
+               f13.s:7      *ABS*:000000000000000b readCoreTimer
+               f13.s:8      *ABS*:0000000000000003 putChar
+               f13.s:9      *ABS*:0000000000000006 printInt
+               f13.s:20     .text:0000000000000000 main
+               f13.s:36     .text:0000000000000024 while
+               f13.s:76     .text:0000000000000094 delay
+               f13.s:59     .text:000000000000006c if
+               f13.s:63     .text:000000000000007c else
+               f13.s:81     .text:000000000000009c while2
+
+NO UNDEFINED SYMBOLS

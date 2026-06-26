@@ -1,0 +1,19 @@
+GAS LISTING alinea_c.s 			page 1
+
+
+DEFINED SYMBOLS
+          alinea_c.s:7      .data:0000000000000000 str1
+          alinea_c.s:8      .data:000000000000002a str2
+          alinea_c.s:9      .data:0000000000000047 str3
+          alinea_c.s:10     .data:000000000000005a str4
+          alinea_c.s:11     .data:0000000000000078 str5
+          alinea_c.s:12     .data:000000000000008c str6
+          alinea_c.s:13     .data:00000000000000ab str7
+          alinea_c.s:15     *ABS*:0000000000000005 readInt10
+          alinea_c.s:16     *ABS*:0000000000000007 printInt10
+          alinea_c.s:17     *ABS*:0000000000000006 printInt
+          alinea_c.s:18     *ABS*:0000000000000008 printStr
+          alinea_c.s:23     .text:0000000000000000 main
+          alinea_c.s:25     .text:0000000000000000 while
+
+NO UNDEFINED SYMBOLS
