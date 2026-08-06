@@ -1,0 +1,75 @@
+Mar 27 11:24:57.617 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 27 11:24:57.620 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63830.
+Mar 27 11:24:58.053 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 27 11:24:58.056 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips 
+Mar 27 11:24:58.056 GENERAL: working_dir=C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips
+Mar 27 11:24:58.057 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\f3d525c9-7358-4814-82d8-e8e6562b819a 
+Mar 27 11:24:58.093 GENERAL: working_dir=C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\f3d525c9-7358-4814-82d8-e8e6562b819a
+Mar 27 11:24:58.095 HYPERVISOR: exec_cmd: vm create R4 4 c7200 
+Mar 27 11:24:58.103 VM: VM R4 created.
+Mar 27 11:24:58.106 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5006 
+Mar 27 11:24:58.107 HYPERVISOR: exec_cmd: c7200 get_mac_addr R4 
+Mar 27 11:24:58.108 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:24:58.109 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-FE 
+Mar 27 11:24:58.113 HYPERVISOR: exec_cmd: vm set_disk0 R4 0 
+Mar 27 11:24:58.116 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Mar 27 11:24:58.119 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:24:58.120 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x60608040 
+Mar 27 11:24:58.125 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:24:58.127 HYPERVISOR: exec_cmd: c7200 set_mac_addr R4 ca04.0f78.0000 
+Mar 27 11:24:58.130 HYPERVISOR: exec_cmd: vm set_nvram R4 512 
+Mar 27 11:24:58.133 HYPERVISOR: exec_cmd: vm set_ram R4 512 
+Mar 27 11:24:58.135 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:24:58.136 HYPERVISOR: exec_cmd: vm slot_remove_binding R4 0 0 
+Mar 27 11:24:58.139 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:24:58.141 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 C7200-IO-2FE 
+Mar 27 11:24:58.143 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:24:58.144 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 PA-2FE-TX 
+Mar 27 11:25:01.764 HYPERVISOR: exec_cmd: nio create_udp udp-4431a4aa-8c5b-4e72-90bb-6e8ec49ff5a6 20010 127.0.0.1 20011 
+Mar 27 11:25:02.633 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-4431a4aa-8c5b-4e72-90bb-6e8ec49ff5a6 
+Mar 27 11:25:02.635 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:25:03.800 HYPERVISOR: exec_cmd: nio create_udp udp-38b900e9-ff03-408a-b41c-900bb1e66edc 20022 127.0.0.1 20023 
+Mar 27 11:25:03.808 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 1 udp-38b900e9-ff03-408a-b41c-900bb1e66edc 
+Mar 27 11:25:03.809 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:25:03.915 HYPERVISOR: exec_cmd: nio create_udp udp-97086cdf-657d-40f1-a881-5b2b57e36e20 20026 127.0.0.1 20027 
+Mar 27 11:25:03.922 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-97086cdf-657d-40f1-a881-5b2b57e36e20 
+Mar 27 11:25:03.924 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:47:18.245 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:19.775 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:20.190 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:56.808 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:58.058 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:59.178 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:52:07.102 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Mar 27 11:52:07.104 HYPERVISOR: exec_cmd: vm set_ghost_file R4 C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 27 11:52:07.106 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 11:52:07.109 HYPERVISOR: exec_cmd: vm set_config R4 configs\i4_startup-config.cfg configs\i4_private-config.cfg 
+Mar 27 11:52:07.111 HYPERVISOR: exec_cmd: vm start R4 
+Mar 27 11:52:37.577 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 27 11:53:07.571 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 27 12:09:44.062 HYPERVISOR: exec_cmd: nio bind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 capture 
+Mar 27 12:09:44.062 HYPERVISOR: exec_cmd: nio setup_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 en10mb C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\captures\R4_FastEthernet10_to_R2_FastEthernet10.pcap 
+Mar 27 12:15:50.028 HYPERVISOR: exec_cmd: nio unbind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 
+Mar 27 12:19:34.813 HYPERVISOR: exec_cmd: nio bind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 capture 
+Mar 27 12:19:34.818 HYPERVISOR: exec_cmd: nio setup_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 en10mb C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\captures\R4_FastEthernet10_to_R2_FastEthernet10.pcap 
+Mar 27 12:27:03.230 HYPERVISOR: exec_cmd: nio unbind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 
+Mar 27 12:27:17.183 HYPERVISOR: exec_cmd: nio bind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 capture 
+Mar 27 12:27:17.184 HYPERVISOR: exec_cmd: nio setup_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 en10mb C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\captures\R4_FastEthernet10_to_R2_FastEthernet10.pcap 
+Mar 27 12:32:42.450 HYPERVISOR: exec_cmd: nio unbind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 
+Mar 27 12:34:45.390 HYPERVISOR: exec_cmd: nio bind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 capture 
+Mar 27 12:34:45.390 HYPERVISOR: exec_cmd: nio setup_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 en10mb C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\captures\R4_FastEthernet10_to_R2_FastEthernet10.pcap 
+Mar 27 12:40:28.748 HYPERVISOR: exec_cmd: nio unbind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 
+Mar 27 12:40:38.751 HYPERVISOR: exec_cmd: nio bind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 capture 
+Mar 27 12:40:38.752 HYPERVISOR: exec_cmd: nio setup_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 en10mb C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\captures\R4_FastEthernet10_to_R2_FastEthernet10.pcap 
+Mar 27 12:52:09.007 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 12:52:09.009 HYPERVISOR: exec_cmd: vm stop R4 
+Mar 27 12:52:09.222 VM: VM R4 shutdown.
+Mar 27 12:52:09.228 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 27 12:52:09.245 HYPERVISOR: exec_cmd: nio unbind_filter udp-97086cdf-657d-40f1-a881-5b2b57e36e20 2 
+Mar 27 12:52:10.077 HYPERVISOR: exec_cmd: vm get_status R4 
+Mar 27 12:52:10.078 HYPERVISOR: exec_cmd: vm extract_config R4 
+Mar 27 12:52:10.084 HYPERVISOR: exec_cmd: vm delete R4 
+Mar 27 12:52:10.085 VM: VM R4 destroyed.
+Mar 27 12:52:10.088 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 27 12:52:10.574 HYPERVISOR: Stopped.
+Mar 27 12:52:10.575 GENERAL: reset done.

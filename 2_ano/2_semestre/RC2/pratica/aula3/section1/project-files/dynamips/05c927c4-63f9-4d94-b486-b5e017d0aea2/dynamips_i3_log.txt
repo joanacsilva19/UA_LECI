@@ -1,0 +1,66 @@
+Mar 27 11:24:56.179 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 27 11:24:56.182 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63824.
+Mar 27 11:24:56.608 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 27 11:24:56.611 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips 
+Mar 27 11:24:56.612 GENERAL: working_dir=C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips
+Mar 27 11:24:56.613 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\b8edb416-8f31-4b46-8496-ceb9e78d30c7 
+Mar 27 11:24:56.649 GENERAL: working_dir=C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\b8edb416-8f31-4b46-8496-ceb9e78d30c7
+Mar 27 11:24:56.650 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Mar 27 11:24:56.656 VM: VM R2 created.
+Mar 27 11:24:56.658 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5004 
+Mar 27 11:24:56.659 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Mar 27 11:24:56.660 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:24:56.661 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Mar 27 11:24:56.665 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 27 11:24:56.667 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Mar 27 11:24:56.670 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:24:56.671 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60608040 
+Mar 27 11:24:56.675 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:24:56.677 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.314c.0000 
+Mar 27 11:24:56.680 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Mar 27 11:24:56.682 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Mar 27 11:24:56.685 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:24:56.686 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Mar 27 11:24:56.688 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:24:56.689 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Mar 27 11:24:56.691 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:24:56.692 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Mar 27 11:25:03.941 HYPERVISOR: exec_cmd: nio create_udp udp-3945a9b1-7d44-4596-9612-d2ae86d9eb24 20028 127.0.0.1 20029 
+Mar 27 11:25:04.839 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-3945a9b1-7d44-4596-9612-d2ae86d9eb24 
+Mar 27 11:25:04.841 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:25:04.941 HYPERVISOR: exec_cmd: nio create_udp udp-cc6bc973-fb4f-445b-b493-e0701681be16 20032 127.0.0.1 20033 
+Mar 27 11:25:04.949 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-cc6bc973-fb4f-445b-b493-e0701681be16 
+Mar 27 11:25:04.951 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:25:06.546 HYPERVISOR: exec_cmd: nio create_udp udp-850f3ad2-2d76-4c6e-b433-d2acb4e1f58e 20050 127.0.0.1 20051 
+Mar 27 11:25:06.554 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-850f3ad2-2d76-4c6e-b433-d2acb4e1f58e 
+Mar 27 11:25:06.555 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:47:18.252 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:20.115 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:20.938 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:39.839 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:40.987 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:41.381 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:57.500 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:47:59.008 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:48:00.811 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Joana Silva/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Mar 27 11:52:06.657 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Mar 27 11:52:06.662 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\Joana Silva\Desktop\RC2\pratica\aula3\untitled\project-files\dynamips\c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Mar 27 11:52:06.662 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 11:52:06.665 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg configs\i2_private-config.cfg 
+Mar 27 11:52:06.665 HYPERVISOR: exec_cmd: vm start R2 
+Mar 27 11:52:37.109 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 11:53:07.098 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:07:07.403 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:18:37.711 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:34:38.133 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:52:08.761 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 12:52:08.761 HYPERVISOR: exec_cmd: vm stop R2 
+Mar 27 12:52:08.977 VM: VM R2 shutdown.
+Mar 27 12:52:08.979 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:52:10.016 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 27 12:52:10.019 HYPERVISOR: exec_cmd: vm extract_config R2 
+Mar 27 12:52:10.033 HYPERVISOR: exec_cmd: vm delete R2 
+Mar 27 12:52:10.033 VM: VM R2 destroyed.
+Mar 27 12:52:10.040 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 27 12:52:10.103 HYPERVISOR: Stopped.
+Mar 27 12:52:10.104 GENERAL: reset done.
